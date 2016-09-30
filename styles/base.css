@@ -1,0 +1,108 @@
+
+/* line 70 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+
+/* line 1 : /Users/asedwick/Desktop/Math_TB_New_Platform/node_modules/stylus/lib/functions/index.styl */
+
+/* line 6 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.tab-content {
+  display: none;
+}
+
+/* line 9 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.tab-content.isActive {
+  display: block;
+}
+
+/* line 12 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.fake-footer,
+.fake-header {
+  position: relative;
+}
+
+/* line 15 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.fake-footer img,
+.fake-header img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 21 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.thumbnail-container.thumbnail-loading,
+.thumbnail-container.no-thumbnail {
+  height: auto;
+}
+
+/* line 25 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.hero {
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0), rgba(0,0,0,0), #000), url("../images/hero.png");
+}
+
+/* line 29 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+
+/* line 31 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .fake-interactive {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 37 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .hero .hero-inner .breadcrumbs ol li a {
+  color: #7925da;
+}
+
+/* line 40 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .five-e-row .tabs li.selected {
+  border-bottom: 0.5rem solid #4c1787;
+}
+
+/* line 43 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .submitTEI {
+  background: #4c1787;
+}
+
+/* line 46 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .submitTEI:hover {
+  background: #3d126d;
+}
+
+/* line 50 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .alert-box.essential-question .alert-box-heading {
+  color: #4c1787;
+}
+
+/* line 53 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .thumbnail-container.no-thumbnail {
+  background: #4c1787;
+}
+
+/* line 56 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook .footer-pagination .cit-row-inner .footer-pagination-control:hover {
+  background: #4c1787;
+}
+
+/* line 61 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+html input[type="button"]:hover,
+html input[type="submit"]:hover,
+html button:hover,
+.cit-plugin.inline-asset.assessment-discover:not(.embedded-media) .footer-discover .bottom-nav a:hover,
+.cit-plugin.inline-asset.assessment-discover .tei-container .btn-primary.btn.rubric-button:hover,
+.cit-plugin.inline-asset.assessment-discover .tei-container .btn-primary.btn.hide-rubric-button:hover,
+.cit-plugin.inline-asset.assessment-discover div.tei-attachments .btn.attach:hover,
+.modal-container .footer .save-modal:hover,
+.modal-container .footer .dismiss-modal:hover,
+.modal-container .view .download-video a:hover,
+.modal-container .view .download-cc:hover,
+.bootstrapped.modal.clear-my-answers-confirm .btn-primary:hover,
+.bootstrapped.modal.clear-my-answers-confirm .btn-default:hover {
+  background: #4c1787;
+}
+
+/* line 65 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+
+/* line 66 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+.cit-media-gallery .thumbnail-container {
+  width: 309px !important;
+  height: 157px !important;
+}

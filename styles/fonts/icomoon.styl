@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/static/apps/techbook/fonts/icomoon/icomoon.eot?449rxf');
+    src:    url('/static/apps/techbook/fonts/icomoon/icomoon.eot?449rxf#iefix') format('embedded-opentype'),
+        url('/static/apps/techbook/fonts/icomoon/icomoon.ttf?449rxf') format('truetype'),
+        url('/static/apps/techbook/fonts/icomoon/icomoon.woff?449rxf') format('woff'),
+        url('/static/apps/techbook/fonts/icomoon/icomoon.svg?449rxf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$icomoon-did-you-know = "\e903";
+$icomoon-definition = "\e900";
+$icomoon-misconception = "\e901";
+$icomoon-teacher-note = "\e902";
+
+$icomoon-callout-did-you-know = "\e904";
+$icomoon-callout-definition = "\e905";
+$icomoon-callout-misconception = "\e906";
+$icomoon-callout-teacher-note = "\e907";
+
+$icomoon-mixin(name, pseudo = ":before") {
+    &{pseudo} {
+        display: inline-block;
+        font-family: icomoon;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: $icomoon- + name;
+        {block}
+    }
+}

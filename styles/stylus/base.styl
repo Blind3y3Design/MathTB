@@ -1,0 +1,70 @@
+$math-tb-primary = #4C1787;
+$math-tb-primary--light = #7925DA;
+$math-tb-primary--dark = #3D126D;
+
+
+.tab-content {
+	display: none;
+}
+.tab-content.isActive {
+	display: block;
+}
+.fake-footer, .fake-header {
+	position: relative;
+	
+	img {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%)
+	}
+}
+.thumbnail-container.thumbnail-loading, .thumbnail-container.no-thumbnail {
+	height: auto;
+}
+
+.hero {
+    background-image: linear-gradient(-180deg,rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,1)), url(../images/hero.png);
+}
+
+#techbook-app.math-techbook {
+	
+	.fake-interactive {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.hero .hero-inner .breadcrumbs ol li a {
+		color: $math-tb-primary--light;
+	}
+	.five-e-row .tabs li.selected {
+		border-bottom: 0.5rem solid $math-tb-primary;
+	}
+	.submitTEI {
+		background: #4c1787;
+		
+		&:hover{
+			background: #3D126D;
+		}
+	}
+	.alert-box.essential-question .alert-box-heading {
+		color: #4c1787;
+	}
+	.thumbnail-container.no-thumbnail {
+		background: #4c1787;
+	}
+	.footer-pagination .cit-row-inner .footer-pagination-control:hover {
+		background: #4c1787;
+	}
+}
+
+html input[type="button"]:hover, html input[type="submit"]:hover, html button:hover, .cit-plugin.inline-asset.assessment-discover:not(.embedded-media) .footer-discover .bottom-nav a:hover, .cit-plugin.inline-asset.assessment-discover .tei-container .btn-primary.btn.rubric-button:hover, .cit-plugin.inline-asset.assessment-discover .tei-container .btn-primary.btn.hide-rubric-button:hover, .cit-plugin.inline-asset.assessment-discover div.tei-attachments .btn.attach:hover, .modal-container .footer .save-modal:hover, .modal-container .footer .dismiss-modal:hover, .modal-container .view .download-video a:hover, .modal-container .view .download-cc:hover, .bootstrapped.modal.clear-my-answers-confirm .btn-primary:hover, .bootstrapped.modal.clear-my-answers-confirm .btn-default:hover {
+		background: #4c1787;
+	}
+	
+	.cit-media-gallery {
+		.thumbnail-container {
+			width: 309px !important;
+			height: 157px !important;
+		}
+	}
