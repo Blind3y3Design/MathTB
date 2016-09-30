@@ -1,5 +1,5 @@
 
-/* line 89 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 92 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 
 /* line 1 : /Users/asedwick/Desktop/Math_TB_New_Platform/node_modules/stylus/lib/functions/index.styl */
 
@@ -86,17 +86,22 @@
 /* line 61 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 
 /* line 63 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+#techbook-app.math-techbook #investigate .cit-row .cit-row-inner .cit-rich-copy {
+  margin-bottom: 0;
+}
+
+/* line 66 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 #techbook-app.math-techbook #investigate .dark-row-inner {
   background-color: #fff;
 }
 
-/* line 66 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 69 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 #techbook-app.math-techbook #investigate .card-grid:not(.card-grid__single) .asset-card {
   background-color: #f2f2f2;
   box-shadow: 0 0 0.2rem 0 rgba(0,0,0,0.12), 0 0.1rem 0.3rem 0 rgba(0,0,0,0.15);
 }
 
-/* line 70 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 73 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 #techbook-app.math-techbook #investigate .cit-plugin.embed-launch-button h4,
 #techbook-app.math-techbook #investigate .card-grid .card__title,
 #techbook-app.math-techbook #investigate .asset-gallery .card__title,
@@ -111,13 +116,13 @@
   color: #222;
 }
 
-/* line 73 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 76 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 #techbook-app.math-techbook #investigate .card-grid .card__attachment-icon-container svg,
 #techbook-app.math-techbook #investigate .asset-gallery .card__attachment-icon-container svg {
   fill: #222;
 }
 
-/* line 80 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 83 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 html input[type="button"]:hover,
 html input[type="submit"]:hover,
 html button:hover,
@@ -134,9 +139,9 @@ html button:hover,
   background: #4c1787;
 }
 
-/* line 84 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 87 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 
-/* line 85 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
+/* line 88 : /Users/asedwick/Desktop/Math_TB_New_Platform/styles/stylus/base.styl */
 .cit-media-gallery .thumbnail-container {
   width: 309px !important;
   height: 157px !important;
